@@ -1,16 +1,18 @@
-'use strict';
+import dotenv from 'dotenv';
+import fs from 'fs';
+import path from 'path';
+import Sequelize from 'sequelize';
 
-var fs        = require('fs');
-var path      = require('path');
-var Sequelize = require('sequelize');
-var environment = require(../../config/config);
+dotenv.config();
+
+import environment from '../../config/config';
 
 var basename  = path.basename(module.filename);
 var env       = process.env.NODE_ENV || 'development';
 var config    = environment[env];
 var db        = {};
 
-const Sequelize = new Sequelize(config.url, config);
+const sequelize = new Sequelize(config.url, config);
 
 fs
   .readdirSync(__dirname)
