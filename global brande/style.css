@@ -1,0 +1,158 @@
+@import url(css/bootstrap.css);
+@import url(jquery.3.2.1.js);
+body{
+    margin:0;
+	padding:0;
+	width:100%;
+	color:#959595;
+    background:url(images/bg.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+	padding:0;
+	margin:0;
+}
+a{text-decoration: none;color: red }
+p{color: black;}
+h1 {
+	margin:0;
+	padding:20px 0 0 0;
+	color:#636363;
+	font:bold 38px/1.2em Arial, Helvetica, sans-serif;
+	letter-spacing:-2px;
+}
+h1 a, h1 a:hover {
+	color:#636363;
+	text-decoration:none;
+}
+h1 span {
+	color:#78bbe6;
+}
+h1 small {
+	padding:0 10px;
+	font:normal 12px/1.2em Arial, Helvetica, sans-serif;
+    letter-spacing:normal;
+}
+h1, h2, h3{margin: 0;}
+#container{
+    padding:0;
+	margin:0;
+	background:url(images/main_bg.jpg) repeat-y center;
+	background:url(images/main_bg.jpg) repeat-y center;
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header {
+    padding: 0px; margin: 0px;
+}
+#logo {
+	float:left;
+	width:400px;
+	height:86px;
+	padding:0;
+	margin:0 auto;
+}
+#search {
+	float:right;
+	width:250px;
+    padding:25px 0;
+}
+#content{
+    padding: 10px; width: 80%; height: 60%;
+}
+#nav {
+    width: 1000px;
+    padding: 2px;
+    line-height: 40px;
+    margin-top: 10px;
+    text-decoration: none;  
+}
+
+#nav ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+	float:right;
+}
+#nav ul li {
+	margin:0;
+	padding:15px 5px 15px 0;
+	float:left;
+	background:url(images/menu_line.jpg) repeat-x top;
+}
+#nav ul li a {
+	display:block;
+	margin:0;
+	padding:11px 25px;
+	color:#878989;
+	text-decoration:none;
+	font-size:13px;
+	line-height:16px;
+}
+#nav ul li.selected a, #nav ul li a:hover {
+	color:#fff;
+	text-decoration:none;
+    background:#78bbe6;
+}
+#nav .selected {font-weight: bold}
+#nav ul{list-style-type: none; padding: 0;}
+#main {
+    width: 600px;
+    float: right;
+}
+#main2 {
+    width: 600px;
+    float: left;
+    margin:0;
+	padding:10px 0 5px 15px;
+}
+#footer{
+    clear: both;
+    padding: 10px;
+    background-color: #999999;
+    color: white;
+    text-align: right;
+}
+#article {
+	margin:0;
+	padding:10px 0 5px 15px;
+    width: 600px;
+    float: right;
+}
+#article a {
+    color:#78bbe6;
+}
+ol {
+	list-style:none;
+}
+ol li {
+	display:block;
+	clear:both;
+}
+ol li label {
+	display:block;
+	margin:0;
+	padding:16px 0 0 0;
+}
+ol li input.text {
+	width:480px;
+	border:1px solid #c0c0c0;
+	margin:2px 0;
+	padding:5px 2px;
+	height:16px;
+	background:#fff;
+}
+ol li textarea {
+	width:480px;
+	border:1px solid #c0c0c0;
+	margin:2px 0;
+	padding:2px;
+	background:#fff;
+}
+ol li .send {
+    margin:16px 0 0 0;
+}
+
+
+
